@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form Design</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script>
+	function validate(){
+	const name = document.getElementByID('name')
+    const password = document.getElementByID('password')
+	if (name.value == '' || password.value == ''){
+		alert ("Username required")
+	} 
+	else{
+
+	}
+}
+</script>
+
+<body>
+<div class = "loginbox">
+	<img src="avatar.png" class="avatar">
+	<h1>Login here </h1>
+
+	<form id="form" action="" method="GET">
+	<p> Username </p>
+	<input id="name" type="text" name="" placeholder="Enter Username">
+	<p>Password</p>
+	<input id="password" type="password" name="" placeholder="Enter Password">
+	<input type="submit" name="" value="Login">
+	<a href="forgetpword.html"> Lost your password? </a><br>
+	<a href="signup.html"> Don't have an account?</a>
+	</form>
+	
+</div>
+</body>
+</head>
+</html>
